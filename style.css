@@ -1,0 +1,26 @@
+html {
+  background: #e7008a;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #e7008a;
+  height: 100%;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #800080;
+  color: aliceblue;
+}
+
+#projects {
+  background-color: #800080;
+}
+
+section {
+  padding-top: 5rem;
+}
