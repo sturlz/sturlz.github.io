@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -70,8 +73,8 @@
         width="200"
         class="rounded-circle img-thumbnail"
       />
-      <h1 class="display-4">sturlz's portfolio dummy project</h1>
-      <p class="lead">portofolio | dummy project</p>
+      <h1 class="display-4">sturlz's portfolio</h1>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e7008a"
@@ -86,19 +89,30 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-offset="250">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-right"
+            data-aos-offset="250"
+            data-aos-duration="1250"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               repellendus quae in repellat delectus assumenda quod vitae
               cupiditate accusantium, magnam eaque rem. Dolorem, inventore.
             </p>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-offset="250"
+            data-aos-duration="1250"
+            data-aos-delay="200"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
               iure, reprehenderit aliquam fugiat soluta fugit quisquam maxime,
@@ -121,12 +135,12 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center" style="color: black">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-3" data-aos="flip-up" data-aos-delay="50">
             <div class="card">
               <img
                 src="img/projects/art.jpg"
@@ -141,7 +155,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-up"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
             <div class="card">
               <img
                 src="img/projects/art2.jpg"
@@ -156,7 +175,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-up"
+            data-aos-duration="500"
+            data-aos-delay="200"
+          >
             <div class="card">
               <img
                 src="img/projects/art3.jpg"
@@ -171,7 +195,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
             <div class="card">
               <img
                 src="img/projects/art4.jpg"
@@ -186,7 +215,12 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-up"
+            data-aos-duration="500"
+            data-aos-delay="400"
+          >
             <div class="card">
               <img
                 src="img/projects/art5.jpg"
@@ -212,6 +246,100 @@
       </svg>
     </section>
     <!-- (end) Projects -->
+
+    <!-- Gears -->
+    <section id="gears">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gears</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/peripherals1.jpg"
+                alt="Gambar 4"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/peripherals2.jpg"
+                alt="Gambar 5"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/peripherals3.jpg"
+                alt="Gambar 6"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/apple-gadget3.jpg"
+                alt="Gambar 3"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/apple-gadget.jpg"
+                alt="Gambar 1"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/apple-gadget2.jpg"
+                alt="Gambar 2"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/car.jpg"
+                alt="Gambar 7"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/bike.jpg"
+                alt="Gambar 8"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/gears/syntwave-setup.jpg"
+                alt="Gambar 8"
+                class="img-fluid img-gears"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact -->
     <section id="contact">
@@ -318,6 +446,54 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS (Animation On Scroll) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const gearsImage = document.querySelectorAll('.img-gears');
+
+      gearsImage.forEach((img, i) => {
+        img.dataset.aos = 'fade-down';
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: false,
+      });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', {
+        duration: 2,
+        delay: 1.5,
+        text: 'portofolio | dummy project',
+      });
+
+      gsap.from('.jumbotron img', {
+        duration: 2,
+        rotateY: 90,
+        y: -50,
+        opacity: 0,
+        ease: 'elastic',
+      });
+      gsap.from('.navbar', {
+        duration: 1,
+        y: '-100%',
+        opacity: 0,
+        ease: 'expo',
+      });
+      gsap.from('.display-4', {
+        duration: 1,
+        x: '-10%',
+        opacity: 0,
+        ease: 'back',
+      });
+    </script>
 
     <script>
       // tutorial : https://github.com/jamiewilson/form-to-google-sheets

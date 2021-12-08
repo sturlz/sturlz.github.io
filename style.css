@@ -24,3 +24,11 @@ body {
 section {
   padding-top: 5rem;
 }
+
+.img-gears {
+  width: 100%;
+}
+
+#gears .row > * {
+  padding: 0;
+}
